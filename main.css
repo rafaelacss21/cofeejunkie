@@ -7,12 +7,27 @@
 #9a4218 dark orange 
 */
 
-/* BANNER */
 body {
     font-family: 'Indie Flower', cursive;
     font-size: 18px;
 }
 
+/* NAV BAR */
+.navbar-toggler-icon {
+    border: 3px solid #9A4218;
+}
+
+.nav-link, .navbar-brand {
+    font-style: italic;
+    font-weight: bold!important;
+    color: #9A4218!important;
+}
+
+.navbar-brand {
+    font-size: 1.40rem;
+}
+
+/* BANNER */
 header {
     height: 100vh;
     background: url(banner.jpg) fixed;
@@ -68,6 +83,19 @@ header {
     margin: 0px auto 10px auto;
 }
 
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.h5, h5 {
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+
+.display-4 {
+    font-weight: 600;
+}
+
 /* SKILLS */
 #skills {
     padding: 40px;
@@ -93,7 +121,7 @@ header {
 
 /* ABOUT */
 #about {
-    background-color: #464C4C;
+    background-color: #343A40;
 }
 
 #about .pic {
@@ -104,7 +132,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 600px solid transparent;
-    border-left: 100px solid #464C4C;
+    border-left: 100px solid #343A40;
 
 }
 
@@ -112,6 +140,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#about .title {
+    color: #E7E0E0;
+
 }
 
 /* CONTACT */
@@ -141,6 +174,27 @@ header {
 }
 
 /* FOOTER */
-.copyright {
+#footer {
+    padding: 40px;
+    color: #E7E0E0;
+    background-color: #343A40;
+}
+
+#footer .footer-icons{
+    font-size: 40px;
+    padding: 25px 0;
+}
+
+#footer .footer-icons a{
+    color: #D4581C;
+    text-decoration: none;
+}
+
+#footer .footer-icons a:hover {
+    color: #9A4218;
+}
+
+#footer .copyright {
     font-family: sans-serif;
 }
+
