@@ -1,0 +1,114 @@
+/* Color scheme:
+#8C8479 dark yellow beige
+#69461D dark orange brown
+#B1A191 yellow beige
+#E7E0E0 white beige
+#515E5E olive gray
+#9a4218 dark orange 
+*/
+
+/* BANNER */
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+header {
+    height: 100vh;
+    background: url(banner.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-center {
+    height: 100vh;
+    color: #E7E0E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-underline {
+    width: 300px;
+    border: 3px solid #9A4218;
+    margin: 0px auto 20px auto;
+}
+
+.banner-center a {
+    font-size: 30px;
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    border: 3px solid #E7E0E0;
+    border-radius: 10px;
+    color: #E7E0E0;
+    text-decoration: none;
+}
+
+.display2 {
+    font-size: 5rem;
+    font-weight: bold;
+} 
+
+.banner-center a:hover,
+.banner a:focus {
+    color: #9A4218;
+    background-color: #E7E0E0;
+}
+
+/* TITLES */
+.title {
+    margin: 20px 0;
+}
+
+.title-underline {
+    width: 150px;
+    border: 3px solid #9A4218;
+    margin: 0px auto 10px auto;
+}
+
+/* SKILLS */
+#skills {
+    padding: 40px;
+    color: #4A2E0D;
+    margin-bottom: 10px;
+}
+
+#skills .fa {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#skills a {
+    margin-bottom: 20px;
+    background-color: #D4581C;
+    color: #E7E0E0;
+    font-size: 20px;
+}
+
+#skills a:hover {
+    background-color: #9A4218;
+}
+
+/* ABOUT */
+#about {
+    background-color: #464C4C;
+}
+
+#about .pic {
+    height: 600px;
+    background: url(about.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #464C4C;
+
+}
+
+#about .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
