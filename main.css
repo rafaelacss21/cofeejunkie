@@ -10,6 +10,7 @@
 /* BANNER */
 body {
     font-family: 'Indie Flower', cursive;
+    font-size: 18px;
 }
 
 header {
@@ -111,4 +112,35 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* CONTACT */
+#contact {
+    padding: 40px;
+    background-color: #E7E0E0;
+}
+
+#contact .form-control {
+    border-radius: 0!important;
+    font-size: 20px;
+}
+
+#contact button {
+    background-color: #D4581C;
+    color: #E7E0E0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact button:hover {
+    background-color: #9A4218;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+.copyright {
+    font-family: sans-serif;
 }
